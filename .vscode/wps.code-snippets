@@ -1,0 +1,17 @@
+{
+	"echo translate string": {
+	  "prefix": "stringt",
+	  "body": [
+		 "<?php esc_html_e('','world-production-service')?>"
+	  ],
+	  "description": "Echo string translate "
+	},
+	
+  "PHP Tag Block": {
+    "prefix": "php",
+    "body": [
+      "<?php $1; ?>"
+    ],
+    "description": "Insert PHP open and close tags with cursor inside"
+  }
+ }

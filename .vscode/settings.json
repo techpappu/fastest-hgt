@@ -1,0 +1,8 @@
+{
+  "intelephense.environment.includePaths": [
+    "../../../wp-includes",
+    "../../../wp-admin",
+    "../../plugins/woocommerce"
+  ],
+  "intelephense.files.maxSize": 5000000
+}

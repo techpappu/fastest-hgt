@@ -452,22 +452,3 @@ add_filter('woocommerce_is_checkout', function ($is_checkout) {
 	return true;
 });
 
-add_action( 'woocommerce_before_thankyou', 'thankyou_video_with_sound_button',5 );
-function thankyou_video_with_sound_button($order_id) {
-    ?>
-     <!-- Video Thumbnail (Image) Section -->
-        <div class="youtube-thumbnail-container" id="youtube-thumbnail-container">
-            <img id="youtube-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/images/thankyou.webp" alt="YouTube Video Thumbnail" />
-            <!-- <div class="play-button">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/play-button.webp" alt="Play YouTube Video">
-            </div> -->
-        </div>
-
-        <!-- Modal (Lightbox) Section with YouTube Video Embed -->
-        <div id="video-modal" class="video-modal">
-            <span class="close-modal">&times;</span>
-            <!-- YouTube Embed Video -->
-            <iframe id="youtube-video" width="640" height="360" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    <?php
-}

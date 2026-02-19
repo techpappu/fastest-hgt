@@ -268,12 +268,6 @@
 
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2024 Height Growth Tea. সর্বস্বত্ব সংরক্ষিত।</p>
-        <p style="margin-top: 8px; font-size: 0.75rem; opacity: 0.7;">প্রাকৃতিক উপাদান • নিরাপদ • কার্যকর</p>
-    </footer>
-
     <script>
         // FAQ Toggle
         function toggleFaq(element) {
@@ -323,7 +317,7 @@
             });
         });
     </script>
-    <?php wp_footer(); ?>
+    <?php get_footer(); ?>
 </body>
 
 </html>

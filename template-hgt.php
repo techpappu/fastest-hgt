@@ -23,7 +23,7 @@
 
 <body>
     <div>
-        <a href="tel:01811546841" class="sticky-call">
+        <a href="tel:+8801811546874" class="sticky-call">
             📞 ফোন করুন
         </a>
     </div>

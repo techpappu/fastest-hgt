@@ -22,6 +22,33 @@
 </head>
 
 <body>
+    <div>
+        <a href="tel:01811546841" class="sticky-call">
+            📞 ফোন করুন
+        </a>
+    </div>
+    <style>
+        .sticky-call {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            transition: 0.3s ease;
+        }
+
+        .sticky-call:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+    </style>
     <!-- Header -->
     <header class="header">
         <div style="text-align: center;">
@@ -47,6 +74,11 @@
                 </div>
                 <img src="https://heightgrowthttea.shop/wp-content/uploads/2024/01/Height-Groth-man200.png.webp" alt="High Growth Tea" class="product-image">
                 <div class="discount-label">Extra 75% OFF</div>
+            </div>
+            <div style="text-align: center;">
+                <a href="#order-section" class="order-button" style="max-width: 400px; font-size: 30x; padding: 10px;">
+                    🛍️ এখনি কিনুন
+                </a>
             </div>
         </div>
     </section>
@@ -94,6 +126,11 @@
             <div class="benefit-item">
                 <div class="benefit-percentage">74%</div>
                 <div class="benefit-text">পরামর্শকৃত সময়ের আগেই চাহিত ফলাফল পেয়ে একেবারে রোমাঞ্চিত হয়েছেন।</div>
+            </div>
+            <div style="text-align: center;margin-top:10px;">
+                <a href="#order-section" class="order-button" style="max-width: 400px; font-size: 30x; padding: 10px;">
+                    🛍️ এখনি কিনুন
+                </a>
             </div>
         </div>
 
@@ -158,6 +195,11 @@
                 <div class="check-mark">✓</div>
             </div>
         </div>
+        <div style="text-align: center;margin-top:10px;">
+            <a href="#order-section" class="order-button" style="max-width: 400px; font-size: 30x; padding: 10px;">
+                🛍️ এখনি কিনুন
+            </a>
+        </div>
     </section>
 
     <!-- Testimonials -->
@@ -197,6 +239,11 @@
                 <div class="testimonial-icon">✅</div>
                 <p class="testimonial-text">তাৎক্ষণিক ফলের আশা করিনি, তবে দুই মাস ব্যবহারের পর উল্লেখযোগ্য উন্নতি অনুভব করেছি। 🎉</p>
             </div>
+        </div>
+        <div style="text-align: center;margin-top:10px;">
+            <a href="#order-section" class="order-button" style="max-width: 400px; font-size: 30x; padding: 10px;">
+                🛍️ এখনি কিনুন
+            </a>
         </div>
     </section>
 

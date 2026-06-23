@@ -72,7 +72,7 @@
                     <span class="combo-badge-text">COMBO</span>
                     <span class="combo-badge-text">OFFER</span>
                 </div>
-                <img src="https://heightgrowthttea.shop/wp-content/uploads/2024/01/Height-Groth-man200.png.webp" alt="High Growth Tea" class="product-image">
+                <img src="https://heightgrowthttea.shop/wp-content/uploads/2026/06/ফুল-কোর্স.jpg" alt="High Growth Tea" class="product-image">
                 <div class="discount-label">Extra 75% OFF</div>
             </div>
             <div style="text-align: center;">

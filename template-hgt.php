@@ -72,7 +72,10 @@
                     <span class="combo-badge-text">COMBO</span>
                     <span class="combo-badge-text">OFFER</span>
                 </div>
-                <img src="https://heightgrowthttea.shop/wp-content/uploads/2026/06/ফুল-কোর্স.jpg" alt="High Growth Tea" class="product-image">
+                <?php
+                $product_image_url = get_the_post_thumbnail_url(get_the_ID(), 'full') ?: 'https://heightgrowthttea.shop/wp-content/uploads/2026/06/ফুল-কোর্স.jpg';
+                ?>
+                <img src="<?php echo esc_url($product_image_url); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" class="product-image">
                 <div class="discount-label">Extra 75% OFF</div>
             </div>
             <div style="text-align: center;">
